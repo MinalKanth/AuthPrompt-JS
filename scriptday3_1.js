@@ -1,9 +1,1 @@
-let email= prompt('What is your E-mail?');
-let pwd= prompt('What is your Password?');
-
-if (email == 'abc@gmail.com' && pwd == 12345) {
-    console.log('Email and password is correct, Hurray! You are logged in');
-}
-else{
-    console.log('Sorry your email and password donot match!, Try again!');
-}
+const email = prompt("Enter your email address:"); const password = prompt("Enter your password:"); const validEmail = "abc@gmail.com"; const validPassword = "12345"; if (email === validEmail && password === validPassword) { console.log("Authentication successful. Welcome!"); alert("Authentication successful. Welcome!"); } else { console.log("Authentication failed. Invalid credentials."); alert("Authentication failed. Invalid credentials."); }
